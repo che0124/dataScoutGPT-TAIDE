@@ -22,9 +22,17 @@ body {
 #textbox {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 10px;
 }
 
-#userInput {
+#userInput{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+#inputURL {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
@@ -32,7 +40,7 @@ body {
   box-sizing: border-box;
 }
 
-#sendButton {
+.sendButton {
   width: 15%;
   padding: 10px;
   background-color: #4CAF50;
@@ -43,7 +51,7 @@ body {
   margin-left: 5px;
 }
 
-#sendButton:hover {
+.sendButton:hover {
   background-color: #45a049;
 }
 
@@ -60,7 +68,7 @@ body {
 }
 
 .user-message {
-  background-color: #e7e7e7;
+  background-color: #c2c2c2;
   padding: 10px;
   border-radius: 10px;
   max-width: 70%;
@@ -73,13 +81,5 @@ body {
   word-wrap: break-word;
 }
 
-#chatbox {
-  border: 1px solid #ccc;
-  padding: 10px;
-  height: 65%;
-  overflow-y: scroll;
-  margin-bottom: 10px;
-  background-color: #fff;
-  border-radius: 5px;
-}
+
 

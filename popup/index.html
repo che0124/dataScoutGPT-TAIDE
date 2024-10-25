@@ -4,19 +4,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Chatbot</title>
+  <title>PDF Chatbot</title>
   <link rel="stylesheet" href="style.css">
+  <script src="jquery-3.1.0.min.js"></script>
+  <script src="FileSaver.js"></script>
 </head>
 
 <body>
   <h1>Chatbot</h1>
+  <div>
+    <input type="file" id="pdfFile" accept="application/pdf" />
+    <button id="uploadPdfButton">upload PDF</button>
+    <p id="uploadStatus"></p>
+  </div>
+
   <div id="chatbox"></div>
 
   <div id="textbox">
-    <input type="text" id="userInput" placeholder="Type your message..." />
-    <button id="sendButton">Send</button>
+    <input type="text" id="userInput" class="inputText" placeholder="Type your message..." />
+    <button id="sendButton" class="sendButton">Send</button>
   </div>
-  <input type="file" id="pdfFile" accept="application/pdf" /> <!-- 文件选择器 -->
+
+  <div id="textbox">
+    <input type="text" id="inputURL" class="inputText" placeholder="Type your url..." />
+    <button id="sendURL" class="sendButton">Send</button>
+  </div>
 
   <script src="popup.js"></script>
 </body>

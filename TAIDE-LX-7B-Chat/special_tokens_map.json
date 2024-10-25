@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "bos_token": {
     "content": "<s>",
@@ -28,3 +29,35 @@
     "single_word": false
   }
 }
+=======
+{
+  "bos_token": {
+    "content": "<s>",
+    "lstrip": false,
+    "normalized": true,
+    "rstrip": false,
+    "single_word": false
+  },
+  "eos_token": {
+    "content": "</s>",
+    "lstrip": false,
+    "normalized": true,
+    "rstrip": false,
+    "single_word": false
+  },
+  "pad_token": {
+    "content": "<pad>",
+    "lstrip": false,
+    "normalized": true,
+    "rstrip": false,
+    "single_word": false
+  },
+  "unk_token": {
+    "content": "<unk>",
+    "lstrip": false,
+    "normalized": true,
+    "rstrip": false,
+    "single_word": false
+  }
+}
+>>>>>>> 87e74f5de0be96387524c1197e544e7f94d3e891
